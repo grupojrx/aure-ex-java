@@ -1,4 +1,4 @@
-# com.aureex:aureex
+# com.aure-ex:aureex
 
 SDK oficial da API AureEX para Java.
 
@@ -6,7 +6,7 @@ SDK oficial da API AureEX para Java.
 
 ```xml
 <dependency>
-  <groupId>com.aureex</groupId>
+  <groupId>com.aure-ex</groupId>
   <artifactId>aureex</artifactId>
   <version>0.1.0</version>
 </dependency>

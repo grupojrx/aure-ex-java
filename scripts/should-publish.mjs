@@ -1,5 +1,5 @@
 /**
- * Decide se com.aureex:aureex (Maven) deve publicar.
+ * Decide se com.aure-ex:aureex (Maven) deve publicar.
  * exit 0 = publish, 10 = skip, 1 = erro (mudou sem bump)
  */
 import { createHash } from 'node:crypto'
@@ -19,7 +19,7 @@ import { fileURLToPath } from 'node:url'
 import { execSync } from 'node:child_process'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
-const groupId = 'com.aureex'
+const groupId = 'com.aure-ex'
 const artifactId = 'aureex'
 const userAgent = 'AureExSDKPublish (mailto=dev@aure-ex.com)'
 const pathGroup = groupId.replaceAll('.', '/')
