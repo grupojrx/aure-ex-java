@@ -95,7 +95,7 @@ public class DepositCreate {
   private BigDecimal amount;
 
   /**
-   * Rede USDT. &#x60;matic&#x60; é aceito como alias de &#x60;pol&#x60;. ETH, BSC e POL usam o mesmo endereço.
+   * Rede USDT. &#x60;matic&#x60; é aceito como alias de &#x60;pol&#x60;. ETH, BSC e POL usam o mesmo endereço; envio por outra dessas três redes é creditado e o &#x60;network&#x60; do depósito passa a ser a rede real. 
    */
   public enum NetworkEnum {
     TRX(String.valueOf("trx")),
@@ -218,7 +218,7 @@ public class DepositCreate {
   }
 
   /**
-   * Rede USDT. &#x60;matic&#x60; é aceito como alias de &#x60;pol&#x60;. ETH, BSC e POL usam o mesmo endereço.
+   * Rede USDT. &#x60;matic&#x60; é aceito como alias de &#x60;pol&#x60;. ETH, BSC e POL usam o mesmo endereço; envio por outra dessas três redes é creditado e o &#x60;network&#x60; do depósito passa a ser a rede real. 
    * @return network
    */
   @javax.annotation.Nullable
