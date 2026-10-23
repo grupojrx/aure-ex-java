@@ -242,7 +242,7 @@ public class DepositCreate {
   }
 
   /**
-   * Expiração do depósito (ISO 8601). Aceita de 10 minutos a 24 horas a partir da criação; valores fora da faixa são ajustados. Sem o campo, expira em 24 horas. 
+   * Expiração do depósito (ISO 8601). Aceita de 5 minutos a 24 horas a partir da criação; valores fora da faixa são ajustados. Sem o campo, expira em 24 horas. 
    * @return expiration
    */
   @javax.annotation.Nullable
